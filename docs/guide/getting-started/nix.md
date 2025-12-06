@@ -73,7 +73,7 @@ Using [AGS](https://aylur.github.io/ags/) as the bundler.
 
       nativeBuildInputs = [
         ags.packages.${system}.default
-        pkgs.wrapGAppsHook
+        pkgs.wrapGAppsHook3
         pkgs.gobject-introspection
       ];
 
