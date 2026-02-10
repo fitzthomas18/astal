@@ -46,8 +46,8 @@ in
       extraPackages
       ++ [
         lua
-        astal.packages.${pkgs.system}.io
-        astal.packages.${pkgs.system}.astal3
+        astal.packages.${pkgs.stdenv.hostPlatform.system}.io
+        astal.packages.${pkgs.stdenv.hostPlatform.system}.astal3
       ];
 
     installPhase = ''
